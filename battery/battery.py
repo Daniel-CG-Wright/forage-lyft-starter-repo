@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class battery(ABC):
+class Battery(ABC):
 
     def __init__(self):
         pass
