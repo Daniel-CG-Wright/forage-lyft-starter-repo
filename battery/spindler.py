@@ -6,7 +6,7 @@ class spindler(Battery):
         self.today = datetime.today().date()
 
         self.service_date = last_service_date
-        self.service_years = 2
+        self.service_years = 3
     
 
     def battery_should_be_serviced(self):
